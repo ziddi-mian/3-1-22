@@ -701,3 +701,4 @@ function lasttWord(f) {
          console.log("Given Word Is Not Found In String");
        }
   }
+  allWord("i")
