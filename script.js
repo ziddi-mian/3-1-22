@@ -1020,3 +1020,15 @@ function subset() {
     
   }
   Areapara(10)
+
+
+
+
+   // program 48
+  // Write a JavaScript function to print all the methods in an JavaScript object.
+  
+  function objectname(any) {
+    return Object.getOwnPropertyNames(any)
+    
+  }
+  console.log(objectname(Array));
