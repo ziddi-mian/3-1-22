@@ -612,3 +612,5 @@ function allAccur(char) {
     console.log("After Replacing ",t," With ",w," String is:",news);
   }
   repelacelast("i","a")
+
+  
