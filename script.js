@@ -953,3 +953,17 @@ function lasttWord(f) {
     
   }
   displayobj()
+
+
+   // program 43
+  // Write a JavaScript program to get the volume of a Cylinder with four decimal places using object classes.   
+  // Volume of a cylinder : V = πr2h
+  // where r is the radius and h is the height of the cylinder.
+  
+  function volum(h,r) {
+    var volume,result
+    volume=Math.PI*2*r*h
+    result=volume.toFixed(4)
+    console.log("Volume Of cylinder is:",result);
+  }
+  volum(5,6)
