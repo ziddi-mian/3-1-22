@@ -1132,3 +1132,16 @@ function subset() {
     console.log(chek);
   }
   leapYear()
+
+
+
+   // program 5
+// Write a js program to check whether character is an alphabet or not using conditional operator.
+
+function character() {
+  
+    var char=1
+    var check=char>='a'|| char>='A'?char+" is a Character":char+" Is Not A Character"
+    console.log(check);
+    }
+    character()
