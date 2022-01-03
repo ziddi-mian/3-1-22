@@ -1121,3 +1121,14 @@ function subset() {
     console.log(chek);
   }
   checkC_O()
+
+
+
+   // program 4
+  // Write a js program to check whether year is leap year or not using conditional operator.
+  function leapYear() {
+    var num1=11
+    var chek=num1%4==0?num1+" is leap year":num1+" is not a leap year"
+    console.log(chek);
+  }
+  leapYear()
