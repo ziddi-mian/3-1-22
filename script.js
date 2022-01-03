@@ -1278,3 +1278,21 @@ function character() {
         
       }
       vowel('k') 
+
+
+
+      // program 4
+    // Write a js program to find maximum between two numbers using switch case.
+    function maximum(x,y) {
+      
+        switch (x>y) {
+          case true:
+            console.log(x," is Greater");
+            break;
+        
+          default:
+            console.log(y," is Greater");
+            break;
+        }
+      }
+      maximum(3,1)
