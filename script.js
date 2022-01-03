@@ -1296,3 +1296,20 @@ function character() {
         }
       }
       maximum(3,1)
+
+
+      // program 5
+    // Write a js program to check whether a number is even or odd using switch case.
+    function Evenodd(x) {
+        switch (x%2==0) {
+          case 1:
+            console.log(x," is even");
+            break;
+        
+          default:
+            console.log(x," is odd");
+            break;
+        }
+        
+      }
+      Evenodd(9)
